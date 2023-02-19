@@ -1,0 +1,78 @@
+body{
+background-color: gray;
+}
+.title {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: white;
+    padding: 40px;
+}
+.id{
+    background-color:lightgreen;
+  color:white;
+  border-color: grey;
+  border: 10px;
+  padding: 10px;
+text-align: center;
+margin-left: 25%;
+width: 50%;
+border: 3px solid rgb(37, 171, 37);
+padding: 10px;
+margin-top: 50px;
+}
+.id:focus {
+    border: 20px;
+    background-color: rgb(0, 160, 32);
+}
+.zone{
+    background-color:lightgreen;
+    color:white;
+    border-color: grey;
+    border: 10px;
+    padding: 10px;
+  text-align: center;
+  margin-left: 25%;
+  margin-top: 3%;
+  width: 50%;
+  border: 3px solid rgb(37, 171, 37);
+  padding: 10px;
+}
+.zone:focus{
+    border: 20px;
+    background-color: rgb(37, 171, 37);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+body {
+  background-color: rgb(31, 31, 31);
+}
+
+button {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 2.5rem;
+  width: 7rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 1px 1px 5px black;
+  background-color: light;
+  cursor: pointer;
+  text-emphasis-color: blue;
+}
+.tut{
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+}
+.nt{
+  color: aliceblue;
+}
